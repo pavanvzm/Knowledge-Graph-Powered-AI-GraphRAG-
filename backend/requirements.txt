@@ -1,0 +1,36 @@
+# FastAPI and server
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# LangChain for LLM integration
+langchain-core==0.1.52
+langchain-openai==0.1.6
+langchain-community==0.0.36
+
+# OpenAI SDK
+openai==1.12.0
+
+# Vector embeddings
+sentence-transformers==2.5.1
+numpy==1.26.4
+
+# Graph operations
+networkx==3.2.1
+neo4j==5.18.0
+
+# Document processing
+python-multipart==0.0.9
+aiofiles==23.2.1
+chardet==5.2.0
+
+# Testing
+pytest==8.0.1
+pytest-asyncio==0.23.5
+httpx==0.26.0
+
+# Utilities
+python-dotenv==1.0.1
+tiktoken==0.5.2
+tenacity==8.2.3
